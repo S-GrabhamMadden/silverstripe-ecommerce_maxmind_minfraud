@@ -14,6 +14,8 @@ use Sunnysideup\Ecommerce\Model\Process\OrderStep;
  */
 class OrderStepRecordDeviceDetails extends OrderStep implements OrderStepInterface
 {
+    private static $table_name = 'OrderStepRecordDeviceDetails';
+
     /**
      * The OrderStatusLog that is relevant to the particular step.
      *

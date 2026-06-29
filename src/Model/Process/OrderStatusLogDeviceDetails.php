@@ -49,7 +49,7 @@ class OrderStatusLogDeviceDetails extends OrderStatusLog
         return _t('OrderStatusLogDeviceDetails.SINGULAR_NAME', 'Device Details Record');
     }
 
-    public function i18n_plural_name()
+    public function plural_name()
     {
         return _t('OrderStatusLogDeviceDetails.PLURAL NAME', 'Device Details Record');
     }
